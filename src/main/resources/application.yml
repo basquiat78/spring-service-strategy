@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: local
+
+---
+spring:
+  profiles: local
+
+server:
+  error:
+    whitelabel:
+      enabled: false
+  port: 8080
